@@ -3,11 +3,11 @@
 
 # Usage
 
-1. Edit `2017/*`.
+1. Edit `<directory>/*`.
 1. `git add ...`
 1. `git commit`
 1. `git push`
-1. View http://docs.cs50.net/path/to/file.html after a few seconds.
+1. View http://docs.msrit.net/path/to/file.html after a few seconds.
 
 _If your changes do not affect the rendered files under `docs/` (e.g., changes to `.gitignore`), be sure to include `[skip ci]` in the message of the last commit before you push to avoid triggering a build, which would fail, as there would be no changes to deploy._
 
