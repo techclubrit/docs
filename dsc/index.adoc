@@ -5,7 +5,7 @@ title: What's New?
 = What's New?
 
 == Applied CS August 2017
-* Simplified Documentation Site coming soon
+* Simplified Documentation site coming soon here
 * Solutions to ACS units will be uploaded here
 
 == Android Developer Fundamentals 2017
