@@ -3,7 +3,7 @@
 
 # Usage
 
-1. Edit `<directory>/*`.
+1. Edit `dsc/*`.
 1. `git add ...`
 1. `git commit`
 1. `git push`
