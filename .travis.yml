@@ -1,0 +1,19 @@
+language: ruby
+
+rvm: 2.2
+
+install: make depends
+
+script: make docs
+
+deploy:
+  # deploy to GitHub Pages
+  provider: pages
+  local_dir: docs
+  name: ritbot
+  email: tech@msrit.net
+  fqdn: docs.msrit.net
+  github_token: $GITHUB_TOKEN
+  skip_cleanup: true
+  on:
+    branch: master

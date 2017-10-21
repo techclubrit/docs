@@ -1,0 +1,26 @@
+asciidoc:
+  ext: adoc
+asciidoctor:
+  attributes:
+  - data-uri
+  - icons=font
+  - idprefix=
+  - imagesdir=.
+  - linkcss
+  - pygments-css=class
+  - sectlinks
+  - showtitle
+  - source-highlighter=pygments
+  - stem
+  - stylesdir=css
+  - toclevels=3
+  base_dir: :docdir
+  safe: 0
+destination: docs
+exclude:
+- Gemfile
+- Makefile
+- README.md
+plugins:
+- jekyll-asciidoc
+- jekyll-redirect-from

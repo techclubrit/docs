@@ -1,0 +1,12 @@
+---
+title: What's New?
+---
+
+= What's New?
+
+== Applied CS August 2017
+* Simplified Documentation Site coming soon
+* Solutions to ACS units will be uploaded here
+
+== Android Developer Fundamentals 2017
+* We will be sharing code via  image:github.png[alt="Octocat", width=16] here soon.
