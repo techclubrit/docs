@@ -1,5 +1,5 @@
-# CS50 Docs
-[![Build Status](https://travis-ci.org/cs50/docs.svg?branch=master)](https://travis-ci.org/cs50/docs)
+# Developer Docs
+[![Build Status](https://travis-ci.org/techclubrit/docs.svg?branch=master)](https://travis-ci.org/techclubrit/docs)
 
 # Usage
 
