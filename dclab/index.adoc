@@ -1,0 +1,21 @@
+---
+title: DCLab Docs
+---
+
+= Developer Docs
+
+== Getting the script
+
+Run the following commands in your terminal
+
+```
+   wget -O ~/bin/dclab http://goflo.in/dclab
+   chmod a+x ~/bin/dclab
+```
+
+== Getting Started
+* At the beginning of each lab run:
+
+```
+    dclab arjrao 1ms14is018 ~
+```
