@@ -2,9 +2,44 @@
 title: DCLab Docs
 ---
 
-= Developer Docs
+== Requirements
+* Make sure to create a bitbucket.org ID with the same email address you used to fill Google forms for DC.
 
-== Getting the script
+* Ensure you've been added to the repository by your faculty.
+
+* Install Git on your computer - Google for 'git bash' for windows users, and git for linux/mac users
+
+== Submitting Code Using Git and Terminal
+* Setup up the repository on your local machine:
+
+```
+    git clone https://<Your BitBucket ID>@bitbucket.org/dec2017dc722/<YOUR USN>
+```
+
+* `cd <YOUR USN>`  - this directory will be used for submitting all your code
+
+* add/edit any files you wish to submit, and run the following in a terminal in the same the directory:
+
+```
+    git add -A
+    git commit -m '<description of your submission here>'
+    git push
+```
+
+* Next time you work on programs be sure to update your local repository by running
+
+
+```
+    git pull origin master
+```
+
+
+== Submitting Code Using Visual Studio Code and automated scripts in DC Lab
+
+* Be sure to have visual studio code installed with the code command (to open vscode from terminal)
+* This script is designed to be used on linux and mac OS systems. Windows users may need to modify certain aspects of the script.
+
+=== Getting the script
 
 Run the following commands in your terminal
 
@@ -13,12 +48,13 @@ Run the following commands in your terminal
    chmod a+x ~/bin/dclab
 ```
 
-== Submitting code
+=== Submitting code
 * At the beginning of each lab run:
 
 ```
     dclab <bitbucketid> <USN> <PathToCode>
 ```
+* PathToCode is any directory path where you want to save your code to. You can use `.` for current directory.
 
 * After you have finished coding and testing your program,
 select the Source Control Menu (Control Shift G) in VSCode
